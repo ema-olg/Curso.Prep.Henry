@@ -17,6 +17,9 @@ function saludo(idioma) {
     // Si "idioma" es "ingles", devuelve "Hello!"
     // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
     // Tu código:
+    if s wldchqlberbcbfqbridjcnqkjewn
+    kcmqñcmqc
+    vqkmviqoimq2
 }
 
 function esDiezOCinco(numero) {

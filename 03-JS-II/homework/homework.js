@@ -10,6 +10,7 @@ function obtenerMayor(x, y) {
     else return y
 }
 
+
 function saludo(idioma) {
     // Devuelve un saludo en tres diferentes lenguajes:
     // Si "idioma" es "aleman", devuelve "Guten Tag!"
@@ -23,7 +24,9 @@ function saludo(idioma) {
         return "Ni Hao!"
     } else if (idioma === "ingles") {
         return "Hello!"
-    } else return "hola!"
+    } else {
+        return "Hola!"
+    }
 
 }
 
@@ -49,6 +52,9 @@ function esEntero(numero) {
     // De lo contrario, devuelve "false"
     // Pista: Puedes resolver esto usando `Math.floor`
     // Tu código:
+    if (numero % 1 === 0) {
+        return true
+    } else return false
 
 }
 
@@ -72,7 +78,17 @@ function esPrimo(numero) {
     // Pista: un número primo solo es divisible por sí mismo y por 1
     // Pista 2: Puedes resolverlo usando un bucle `for`
     // Nota: Los números 0 y 1 NO son considerados números primos
-    for (numero = )
+
+    for (var i = 2; i < numero; i++)
+        if (numero % i === 0) {
+            return false
+        }
+    if (numero <= 2) {
+        return false
+    } else {
+        return true
+    }
+
 }
 
 
